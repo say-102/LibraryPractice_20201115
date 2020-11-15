@@ -27,7 +27,8 @@ class MainActivity : BaseActivity() {
 
     override fun setValues() {
 
-        Glide.with(mContext).load("https://newsimg.sedaily.com/2019/12/31/1VSAE95B8P_1.jpg").into(firstImg)
+        Glide.with(mContext).load("http://newsimg.sedaily.com/2019/12/31/1VSAE95B8P_1.jpg").into(firstImg)
+        Glide.with(mContext).load("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRF-DT8Ca3OFbxcvkLNxqgqVnL_NrHuVv1bjQ&usqp=CAU").into(secondImg)
 
     }
 }
