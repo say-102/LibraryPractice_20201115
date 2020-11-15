@@ -58,7 +58,7 @@ class MainActivity : BaseActivity() {
 
             TedPermission.with(mContext)
                 .setPermissionListener(pl)
-                .setDeniedMessage("전화 권한 거부")
+                .setDeniedMessage("전화 권한을 거부하면 연결이 불가합니다. [설정] 에서 권한을 켜주세요.")
                 .setPermissions(Manifest.permission.CALL_PHONE)
                 .check()
 
